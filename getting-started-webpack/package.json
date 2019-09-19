@@ -1,0 +1,16 @@
+{
+  "name": "getting-started-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "scripts": {
+    "build:dev": "webpack --mode development --watch --hide-modules"
+  }
+}
